@@ -13,3 +13,6 @@ This is the project repository for the NLP task of converting text to SQL using 
     
 2. Evaluation: This folder contains a single Jupyter notebook - `Evaluation.ipynb`, which is used to evaluate the models.
 3. db: This folder contains some db files which are used in the evaluation.
+
+## Dataset
+We used the WikiSQL dataset for training, which can be found here: https://github.com/salesforce/WikiSQL.

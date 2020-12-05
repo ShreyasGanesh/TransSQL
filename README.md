@@ -15,4 +15,9 @@ This is the project repository for the NLP task of converting text to SQL using 
 3. db: This folder contains some db files which are used in the evaluation.
 
 ## Dataset
-We used the WikiSQL dataset for training, which can be found here: https://github.com/salesforce/WikiSQL.
+
+We used the WikiSQL dataset for training, which can be found here: https://github.com/salesforce/WikiSQL. Additionally, we are using the Spider dataset (https://yale-lily.github.io//spider) for intermediate fine tuning of our models.
+
+## Baseline Model
+
+The implementation of the baseline model which we are using (https://arxiv.org/pdf/1709.00103.pdf), can be found here - https://github.com/tiwarikajal/Seq2SQL--Natural-Language-sentences-to-SQL-Queries

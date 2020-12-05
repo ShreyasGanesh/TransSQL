@@ -13,6 +13,7 @@ This is the project repository for the NLP task of converting text to SQL using 
     
 2. Evaluation: This folder contains a single Jupyter notebook - `Evaluation.ipynb`, which is used to evaluate the models.
 3. db: This folder contains some db files which are used in the evaluation.
+4. Errors: This contains a file `errors.txt` which contains all the queries from the test set where the model failed.
 
 ## Dataset
 

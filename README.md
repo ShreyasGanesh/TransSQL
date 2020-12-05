@@ -9,11 +9,13 @@ This is the project repository for the NLP task of converting text to SQL using 
     2. `DistilBert.ipynb`: The model which uses DistilBERT as the encoder and BERT as the decoder.
     3. `BART.ipynb`: The model which uses BART as both encoder and the decoder.
     4. `BART_50_Intermediate_Tuned.ipynb`: The model which uses BART as both encoder and the decoder and has intermediate fine tuning done.
-    5. Scaled Loss Model to be added.
+    5. `BART_Scaled_Evaluation.ipynb`: The model which uses BART as both encoder and the decoder and a scaled loss function.
     
 2. Evaluation: This folder contains a single Jupyter notebook - `Evaluation.ipynb`, which is used to evaluate the models.
 3. db: This folder contains some db files which are used in the evaluation.
-4. Errors: This contains a file `errors.txt` which contains all the queries from the test set where our best model (BART with intermediate fine tuning) failed.
+4. Errors:
+    1. `errors.txt` which contains all the queries from the test set where our best model (BART with intermediate fine tuning) failed. 
+    2. `Error Analysis.xlsx` which contains 100 manually annotated examples of failed queried and why they failed.
 
 ## Dataset
 
